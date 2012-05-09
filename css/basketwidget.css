@@ -1,0 +1,58 @@
+/* 
+	Basket Widget CSS 
+*/
+
+div#basketwidget {
+	position: relative;
+}
+div#basketwidgetbutton {
+	display: block;
+	text-indent: -9999px;
+	background: url('../images/your_basket_items_blue.jpg') no-repeat;
+	width: 31px;
+	height: 159px;
+	left: 160px;
+	position: absolute;
+}
+
+div#basketwidgetcontent {
+	text-indent: 0;
+	display: none;
+	background: #e8e8e8;
+	border-radius: 5px;
+	left: -195px;
+	width: 195px;
+	z-index: 9999;
+	box-shadow: 1px 1px 10px #ccc;
+	position: absolute;
+	left: -35px;
+	top: 0;
+}
+
+div#basketwidgetcontent h3 {
+	background: url('../images/your_basket_items_heading.gif') no-repeat;
+	width: 170px;
+	height: 26px;
+	float: left;
+	text-indent: -9999px;
+	margin: 10px;
+}
+
+div#basketwidgetcontent .item {
+	font-size: 10px;
+	margin: 10px;
+}
+
+div#basketwidgetcontent .actions {
+	margin: 22px;
+	padding-bottom: 20px;
+}
+
+div#basketwidgetcontent .totals {
+	margin: 10px;
+	border-top: 2px solid #b5c9d9;
+	padding-top: 5px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1.4em;
+}

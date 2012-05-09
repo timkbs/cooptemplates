@@ -1,0 +1,77 @@
+h3.relatedHeader {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 14px;
+  color: #1e6cb6;
+  margin-top: 40px;
+}
+
+#relatedDiv {
+  background: url('../images/search_result_bg.jpg') repeat-x;
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.relatedCarousel_inner {
+  float:left; /* important for inline positioning */
+  width:690px; /* important (this width = width of list item(including margin) * items shown */ 
+  overflow: hidden;  /* important (hide the items outside the div) */
+  margin-bottom: 30px;
+}
+
+
+.relatedCarousel_ul {
+  position:relative;
+  left:-129px; /* important (this should be negative number of list items width(including margin) */
+  list-style-type: none; /* removing the default styling for unordered list items */
+  margin: 0px;
+  padding: 0px;
+  width:9999px;
+  padding-bottom:10px;
+}
+
+.relatedCarousel_ul li{
+  float: left; /* important for inline positioning of the list items */                                    
+  width:109px;  /* fixed width, important */
+  padding:0px;
+  height:180px;
+  margin-top:10px;
+  margin-bottom:10px; 
+  margin-left:5px; 
+  margin-right:25px; 
+}
+
+.relatedCarousel_ul li .bookTitle {
+  float: left;
+  font-family: Arial;
+  font-size: 12px;
+  color: #14564c;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 2px;
+}
+
+
+.relatedCarousel_ul li img {
+  .margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+  cursor:pointer;
+  cursor: hand; 
+  border:0px; 
+  -webkit-box-shadow: 2px 4px 4px #aaa; 
+  -moz-box-shadow: 2px 4px 4px #aaa; 
+  box-shadow: 2px 4px 4px #aaa;
+}
+
+.relatedLeft_scroll, .relatedRight_scroll{
+  float:left; 
+  height:130px; 
+  width:35px; 
+}
+
+.relatedLeft_scroll img, .relatedRight_scroll img{
+  cursor: pointer;
+  cursor: hand;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 85px;
+}

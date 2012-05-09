@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+  <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
+
+  <style type="text/css">
+    *{
+      border: 0;
+      padding: 0;
+    }
+    body {
+      background: url('images/body_bg.jpg') repeat-x;
+    }
+    #mainContainer {
+      width: 1021px;
+      height: auto;
+      margin: 0 auto 0 auto;
+    }
+    .logo {
+      width: 140px;
+      height: 68px;
+      background: url('images/coop_logo.jpg') no-repeat;
+      cursor: pointer;
+    }
+    .row {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .navigation {
+      font-family: 'Paytone One', sans-serif;
+      font-size: 13px;
+      color: #005c51;
+      float: left; 
+      margin-right: 35px;
+      cursor: pointer;
+    }
+
+    .clear {
+      position: relative;
+      display: block;
+      clear: both;
+    }
+  
+    .searchDiv {
+      width: 752px;
+      height: 34px;
+      position: relative;
+      top: 18px;
+      left: 200px;
+      border:1px solid red;
+    }
+
+    .searchBox {
+      width: 344px;
+      height: 32px;
+      background: url('images/search_box_bg.jpg') no-repeat;
+      padding-left: 10px;
+      padding-right: 46px;
+      border: 1px solid #b5bcbf;
+      float: left;
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+    }
+
+    .searchButton {
+      float: left;
+      display: inline;
+      border: 1px solid red;
+      width: 36px;
+      height: 32px;
+      margin-left: -36px;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+    .button {
+      display: inline-block;
+      zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+      *display: inline;
+      vertical-align: baseline;
+      margin-top: 0;
+      margin-left: 30px;
+      outline: none;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      font-family: 'Paytone One', sans-serif;
+      padding-left: 15px;
+      padding-right: 35px;
+      padding-top: 3px;
+      padding-bottom: 9px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.3);
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+      box-shadow: 0 1px 2px rgba(0,0,0,.2);
+      color: #ffffff;
+      background: #67c247;
+      background: -webkit-gradient(linear, left top, left bottom, from(#67c247), to(#2fa206));
+      background: -moz-linear-gradient(top,  #67c247,  #2fa206);
+      filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#67c247', endColorstr='#2fa206');
+      float: left;
+    }
+    .button2 {
+      display: inline-block;
+      zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+      *display: inline;
+      vertical-align: baseline;
+      margin-top: 0;
+      margin-left: 30px;
+      outline: none;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      font-family: 'Paytone One', sans-serif;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 3px;
+      padding-bottom: 9px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.3);
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+      box-shadow: 0 1px 2px rgba(0,0,0,.2);
+      color: #005c51;
+      background: #eaebef;
+      background: -webkit-gradient(linear, left top, left bottom, from(#eaebef), to(#b5c1c7));
+      background: -moz-linear-gradient(top,  #eaebef,  #b5c1c7);
+      filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaebef', endColorstr='#b5c1c7');
+      float: left;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div id="mainContainer">
+    <div class="row">
+      <div class="navigation">About Us</div>
+      <div class="navigation">Customer Service</div>
+      <div class="navigation">Contact Us</div>
+      <div class="navigation">Find a Store</div>
+      <div class="navigation">Membership</div>
+      <div class="navigation">Ordering Info</div>
+      <div class="navigation">Phone Deals</div>
+      <div class="navigation">Blog</div>
+      <span class="clear"></span>
+    </div>
+    <div class="row">
+      <div class="logo" />
+        <div class="searchDiv">
+          <input type="text" class="searchBox" placeholder="Book search by keyword" />
+          <input type="button" class="searchButton" onClick="alert('searching!');"/>
+          <input type="button" class="button" value="Text Book Search">
+          <input type="button" class="button2" value="Browse">
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+.apparelMainContainer {
+  font-family: Arial;
+  font-size: 12px;
+  background: url('../images/search_result_bg.jpg') repeat-x;
+  width: 727px;
+  height: 100px;
+  line-height: 20px;
+  padding-top: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+
+.apparelDiv {
+  width:160px;
+  float: left;
+  height: 370px;
+  margin-left: 11px;
+  margin-right: 10px;
+
+}
+
+.apparelDiv .label {
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: bold;
+  color: #005c4a;
+  line-height: 15px;
+}
+
+.apparelDiv .description {
+  font-family: Arial;
+  font-size: 11px;
+  font-weight: normal;
+  color: #000;
+  line-height: 15px;
+}
+
+.apparelDiv .nonMemberPrice {
+  margin-top:40px;
+  line-height: 11px;
+}
+
+.apparelDiv .memberPrice {
+  margin-top: 5px;
+  line-height: 11px;
+  margin-bottom: 10px;
+}
+
+.apparelDiv .nonMemberPrice .value,
+.apparelDiv .memberPrice .value {
+  font-weight: bold;
+}
+
+.apparelDiv .moreInfo {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.apparelDiv .addToWishlist {
+  font-family: Arial;
+  text-decoration: none;
+  color: #67c247;
+  display: block;
+}
+
+.apparelPageControls {
+  margin-top: 15px;
+  height: 65px;
+}
+
+.apparelPageControls1 {
+  float: left;
+  width: 140px;
+  font-family: Arial;
+  font-size: 10px;
+  color: #0f5b4e;
+  line-height: 11px;
+  padding-top: 8px;
+}
+
+.apparelPageControls2 {
+  float: left;
+  width: 270px !important;
+}
+.apparelPageControls2 {
+  float: left;
+  width: 160px;
+}

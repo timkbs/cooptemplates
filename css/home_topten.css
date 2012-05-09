@@ -1,0 +1,77 @@
+h3.topTenHeader {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 14px;
+  color: #1e6cb6;
+  margin-top: 40px;
+}
+
+#topTenDiv {
+  width: 100%;
+
+}
+
+.topTenCarousel_inner {
+  float:left; /* important for inline positioning */
+  width:680px; /* important (this width = width of list item(including margin) * items shown */ 
+  overflow: hidden;  /* important (hide the items outside the div) */
+  margin-bottom: 30px;
+}
+
+
+.topTenCarousel_ul {
+  position:relative;
+  left:-140px; /* important (this should be negative number of list items width(including margin) */
+  list-style-type: none; /* removing the default styling for unordered list items */
+  margin: 0px;
+  padding: 0px;
+  width:9999px;
+  padding-bottom:10px;
+}
+
+.topTenCarousel_ul li{
+  float: left; /* important for inline positioning of the list items */                                    
+  width:130px;  /* fixed width, important */
+  padding:0px;
+  height:280px;
+  margin-top:10px;
+  margin-bottom:10px; 
+  margin-left:5px; 
+  margin-right:2px; 
+}
+
+.topTenCarousel_ul li .bookTitle {
+  float: left;
+  font-family: Arial;
+  font-size: 12px;
+  color: #14564c;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 2px;
+}
+
+
+.topTenCarousel_ul li img {
+  .margin-bottom:-4px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+  cursor:pointer;
+  cursor: hand; 
+  border:0px; 
+  -webkit-box-shadow: 2px 4px 4px #aaa; 
+  -moz-box-shadow: 2px 4px 4px #aaa; 
+  box-shadow: 2px 4px 4px #aaa;
+}
+
+.topTenLeft_scroll, .topTenRight_scroll{
+  float:left; 
+  height:130px; 
+  width:35px; 
+}
+
+.topTenLeft_scroll img, .topTenRight_scroll img{
+  cursor: pointer;
+  cursor: hand;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 85px;
+}
+
+

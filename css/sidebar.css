@@ -1,0 +1,99 @@
+.sideBarDiv .profileDiv {
+  float: left;
+  width: 136px;
+  height: 170px;
+  background:#e9e8e4;
+  font-family: Arial;
+  font-size: 12px; 
+  font-weight: bold;
+  color: #000;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.profileDiv p.signInText {
+  font-size: 11px;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.profileDiv .signInButton {
+  margin-bottom: 10px;
+}
+.profileDiv p.signInLinks {
+  font-size: 11px;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.profileDiv p.signInLinks a {
+  color: #1969ad;
+}
+
+
+.sideBarDiv .profileDiv-wishlist {
+  float: left;
+  width: 136px;
+  height: 47px;
+  background:#e9e8e4;
+  font-family: Arial;
+  font-size: 12px; 
+  font-weight: bold;
+  color: #000;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.profileDiv .editProfile, .profileDiv-wishlist .editProfile {
+  color: #1a69ac; 
+  font-family: Arial;
+  font-size: 10px; 
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.profileDiv hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #1a69ac;
+}
+
+.profileDiv .actions {
+  color: #000;
+  text-decoration: none;
+  margin-top: 1px;
+  display: block;
+} 
+
+.myProfileHeadingDiv {
+  height: 41px;
+}
+
+.sideBarDiv .checkout {
+  margin-top: 16px;
+  margin-left: -4px;
+}
+
+.sideBarDiv .midActions {
+  margin-top: 20px; 
+  width: 160px;
+  height: 205px;
+  background: url('../images/sidebar_midactions_bg.jpg') no-repeat;
+  padding-top: 24px;
+  font-family: Arial;
+  font-size: 12px; 
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 45px;
+} 
+
+.midActions a {
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 39px;
+  display: block;
+}

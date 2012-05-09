@@ -1,0 +1,394 @@
+    .single_col {
+      width: 776px;
+      float: left;
+    }
+    .double_col {
+      width: 370px;
+      float: left;
+      margin-right: 15px;
+    }
+    .single_col .subnav {
+      width: 90px;
+    }
+    .double_col .subnav {
+      width: 65px;
+    }
+    .subnav {
+      color: #fff;
+      padding: 10px 10px 10px 9px;
+      font-weight: normal;
+      text-transform: uppercase;
+      font-family: 'Paytone One', sans-serif;
+      font-size: 8pt;
+      line-height: 10px;
+      height: 14px;
+      float: left;
+      margin-right: 4px;
+      margin-top: 5px;
+      text-align: center;
+      cursor: pointer;
+      background: -webkit-gradient(linear, left top, left bottom, from(#80dd6a), to(#6ac14c));
+      background: -moz-linear-gradient(top,  #80dd6a,  #6ac14c);
+      filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#80dd6a', endColorstr='#6ac14c');
+      -webkit-top-left-border-radius: 5px;
+      -moz-top-left-border-radius: 5px;
+      border-top-left-radius: 5px;
+      -webkit-top-right-border-radius: 5px;
+      -moz-top-right-border-radius: 5px;
+      border-top-right-radius: 5px;
+    }  
+
+    .two_liner {
+      padding: 5px 10px 15px 10px !important;
+      text-align: left;
+      line-height: 12px;
+    }
+
+    .subnav.selected {
+      background: -webkit-gradient(linear, left top, left bottom, from(#c8cdd0), to(#e2e7eb));
+      background: -moz-linear-gradient(top,  #c8cdd0,  #e2e7eb);
+      filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c8cdd0', endColorstr='#e2e7eb');
+      background-color: #c8cdd0;
+      color: #68c04a;
+    }
+    .subnav.viewall {
+      background: none;
+      background-color: #fff;
+      color: #68c04a;
+      width: 75px;
+      text-transform: none !important;
+    }
+    .subnav.viewall img {
+      position:relative;
+      top:2px;
+      margin-right:2px;
+    }
+    .sub1 {
+      border-bottom: 1px solid #14564c;
+      color: #000;
+      padding: 10px;
+    }
+    .sub1 h3 {
+      color: #14564c;
+    }
+    .sub1.last {
+      border: none;
+    }
+    .main_body {
+      height: 300px;
+      background: url('../images/search_result_bg.jpg') repeat-x;
+      background-position: 0 39px;
+      font-family: arial;
+      font-size: 8pt;
+      color: #14564c;
+      font-weight: bold;
+    }
+
+    .top_main_body {
+      width: 760px !important;
+    }
+
+
+    .bottom_main_body {
+      width: 370px;
+    }  
+ 
+    .book {
+      text-align: center;
+      float:left;
+      width: 130px;
+      margin: 10px 5px 0px 5px;
+    }
+    .book .title {
+      height: 30px;
+    }
+    .book .info {
+      text-align: left;
+      border-top: 1px solid #14564c;
+      border-bottom: 1px solid #14564c;
+    }
+    .book .price {
+      text-align: right;
+    }
+    .book .prices {
+      width: 100%;
+    }
+    .book .button {
+      display: inline-block;
+      font-weight: bold;
+      text-align: center;
+      zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+      *display: inline;
+      vertical-align: baseline;
+      margin-top: 10px;
+      margin-left: 0px;
+      outline: none;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: 'Paytone One', sans-serif;
+      font-size: 8pt;
+      padding-left: 23px;
+      padding-right: 23px;
+      padding-bottom: 3px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.3);
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+      box-shadow: 0 1px 2px rgba(0,0,0,.2);
+      color: #ffffff;
+      background: #67c247;
+      background: -webkit-gradient(linear, left top, left bottom, from(#67c247), to(#2fa206));
+      background: -moz-linear-gradient(top,  #67c247,  #2fa206);
+      filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#67c247', endColorstr='#2fa206');
+      float: left;
+    }
+    .rrp {
+      text-decoration: line-through;
+    }
+    h3.offersHeader {
+      text-transform: uppercase;
+      font-family: 'Paytone One', sans-serif;
+      font-size: 14px;
+      color: #1e6cb6;
+      margin-top: 40px;
+    }
+
+.home_left_scroll, .home_right_scroll{
+  float:left;
+  height:130px;
+  width:25px;
+}
+
+.home_left_scroll img, .home_right_scroll img{
+  cursor: pointer;
+  cursor: hand;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 85px;
+}
+
+    .browseBySubjectHeading {
+      color: #fff;
+      padding-top: 10px; 
+      padding-bottom: 10px;
+      font-weight: normal;
+      text-transform: uppercase;
+      font-family: 'Paytone One', sans-serif;
+      font-size: 8pt;
+      line-height: 10px;
+      height: 14px;
+      float: left;
+      margin-right: 4px;
+      margin-top: 15px;
+      text-align: center;
+      cursor: pointer;
+      background: -webkit-gradient(linear, left top, left bottom, from(#80dd6a), to(#6ac14c));
+      background: -moz-linear-gradient(top,  #80dd6a,  #6ac14c);
+      filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#80dd6a', endColorstr='#6ac14c');
+      -webkit-top-left-border-radius: 5px;
+      -moz-top-left-border-radius: 5px;
+      border-top-left-radius: 5px;
+      -webkit-top-right-border-radius: 5px;
+      -moz-top-right-border-radius: 5px;
+      border-top-right-radius: 5px; 
+      width: 160px;
+    }  
+
+    .browseBySubjectContent {
+      background:#e8e8e8;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      width: 160px;
+    }
+
+    .browseBySubjectContent a {
+      display: block;
+      margin-bottom: 1px;
+      margin-left: 14px;
+      color: #000;
+      font-family: Arial;
+      text-decoration: none;
+      font-size: 11px;
+    }
+
+/* Register lightbox */
+
+div#registermodal {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #ccc;
+  padding: 40px;
+  border: none;
+}
+
+div#registermodal .left {
+  width: 275px;
+  float: left;
+}
+
+div#registermodal .right {
+}
+
+div#registermodal .box {
+  width: 275px;
+  height: 175px;
+  background: #e8e8e8;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #ccc;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+div#registermodal  .box h3 {
+  float: left;
+  font-family: 'Paytone One', sans-serif;
+  color: #1969ad;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 0 15px 10px 15px;
+}
+
+div#registermodal .box p {
+  margin: 15px;
+  float: left;
+  clear: left;
+  font-size: .9em;
+}
+
+div#registermodal .createprofile {
+  width: 300px;
+  float: left;
+  margin-left: 300px;
+  margin-top: -223px;
+  font-size: .9em;
+}
+
+div#registermodal .createprofile label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .8em;
+  width: 100%;
+  margin-top: 5px;
+}
+
+div#registermodal .createprofile input {
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+div#registermodal .createprofile input#loginAgreeTerms {
+  width: auto;
+}
+
+div#registermodal  .createprofile h3 {
+  font-family: 'Paytone One', sans-serif;
+  color: #1969ad;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+div#registermodal .createprofile input.firstNameInput {
+  clear: left;
+  width: 120px;
+}
+
+
+div#registermodal .createprofile input.lastNameInput {
+  clear: left;
+  width: 120px;
+
+}
+
+div#registermodal .createprofile #registerSubmitButton {
+  background: #1969ad;
+  color: #fff;
+  width: auto;
+  padding: 7px 10px;
+  font-size: .9em;
+  margin-top: 5px;
+  border: none;
+}
+
+div#registermodal .forgottenPasswordLink { 
+  display: block;
+  margin-top: 5px;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Login modal */
+
+div#loginmodal {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #ccc;
+  padding: 40px;
+  border: none;
+  width: 300px;
+  margin-left: -200px;
+}
+
+div#loginmodal h3 {
+  font-family: 'Paytone One', sans-serif;
+  color: #1969ad;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 0px 0 15px 0;
+}
+
+div#loginmodal p {
+  font-size: .9em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+div#loginmodal label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .8em;
+  width: 100%;
+  margin-top: 5px;
+}
+
+div#loginmodal input {
+  border: 1px solid #ccc;
+  width: 90%;
+  padding: 7px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+div#loginmodal #loginSubmitButton {
+  background: #1969ad;
+  color: #fff;
+  width: auto;
+  padding: 7px 10px;
+  font-size: .9em;
+  margin-top: 5px;
+  border: none;
+  text-transform: uppercase;
+}
+
+div#loginmodal .forgottenPasswordLink {
+  color: #000;
+  display: block;
+  margin-top: 5px;
+
+  font-weight: normal;
+  text-decoration: none;
+  font-size: .8em;
+}
+form#loginmodalform {
+  margin: 0 auto;
+}
+
