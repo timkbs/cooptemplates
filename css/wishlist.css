@@ -441,6 +441,17 @@ h2.label {
 	
 }
 
+.credit-cardfour img{
+	width:262px;
+	height:55px;
+	float:right;
+	margin-top:10px;
+	margin-right:78px;
+	margin-bottom:40px;
+	
+	
+}
+
 .ship-addressDiv{
 	background: url("../images/wishlist-item-backing.png") repeat-x scroll 0 0 transparent;
     min-height: 370px;
@@ -639,7 +650,7 @@ textarea{
 
 .payment-Div{
 	background: url("../images/wishlist-item-backing.png") repeat-x scroll 0 0 transparent;
-    min-height: 370px;
+    min-height: 350px;
     width: 945px;
 	margin-top:64px;
 	margin-bottom:20px;
@@ -647,10 +658,12 @@ textarea{
 
 .payment-options{
 	width:312px;
-	height:110px;
+	height:130px;
 	float:left;
 	padding-left:18px;
 	padding-top:12px;
+	margin-top:14px;
+	
 	
 }
 
@@ -689,7 +702,6 @@ textarea{
 	height:40px;
 	float:left;
 	margin-top:20px;
-	background-color:#666666;
 	margin-bottom:16px;
 
 }
@@ -702,6 +714,112 @@ textarea{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	font-weight:bold;
+	float:right;
+	height:14px;
+	width:70px;
+	margin-top:-12px;
+	
 }
 
+.radio-btn{
+	width:16px;
+	height:16px;
+	float:left;
+	margin-top:10px;
+	margin-right:2px;
+	
+}
+
+.radio-btn2{
+	width:16px;
+	height:16px;
+	float:right;
+	margin-top:10px;
+	margin-right:75px;
+}
+
+.payment-type img{
+	float:left;
+}
+
+.order-summary{
+	width:318px;
+	height:233px;
+	float:right;
+	padding-top:12px;
+	background-color:#FFF;
+	margin-right:50px;
+	border-radius:5px;
+	margin-top:14px;
+	
+}
+
+.order-heading{
+	font-family: 'Paytone One',sans-serif;
+    font-size: 16px;
+	color:#68C04A;
+	margin-left:14px;
+	
+}
+
+.summary-list{
+	width:284px;
+	height:150px;
+	float:left;	
+	margin-left:16px;
+	margin-top:20px;
+}
+
+.order-list{
+	width:284px;
+	height:129px;
+	float:left;	
+	
+}
+
+.order-items{
+	width:170px;
+	height:134px;
+	float:left;	
+		
+}
+
+
+.order-items li{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	line-height:18px;
+}
+
+.order-items ul{
+	list-style-type: none;
+}
+
+.payment-total{
+	width:318px;
+	height:40px;
+	float:left;	
+	background-color:#E8E8E8;
+	border-radius:5px;
+}
+
+.payment-text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+	margin-left:16px;
+	margin-top:12px;
+	
+}
+
+.payment-cost{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	float:right;
+	margin-right:19px;
+	margin-top:12px;
+}
 
