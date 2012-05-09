@@ -2,6 +2,7 @@
 <html>
 <head>
 
+  <title>Coop Templates - Search</title>
   <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/global.css" />
   <link rel="stylesheet" type="text/css" href="css/header.css" />
@@ -9,11 +10,11 @@
   <link rel="stylesheet" type="text/css" href="css/searchresults.css" />
   <link rel="stylesheet" type="text/css" href="css/sidebar.css" />
 
-  <script language="javascript" src="js/jquery.js"></script>
-  <script language="javascript" src="js/jquery_selectify.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery_selectify.js"></script>
   <link rel="stylesheet" type="text/css" href="css/jquery_selectify.css" />
 
-  <script language="javascript" src="js/offers.js"></script>
+  <script src="js/offers.js"></script>
   <link rel="stylesheet" type="text/css" href="css/offers.css" />
 
 </head>
@@ -33,10 +34,10 @@
       <span class="clear"></span>
     </div>
     <div class="row bottomMargin">
-      <div class="logo" />
+      <div class="logo"></div>
         <div class="searchDiv">
           <input type="text" class="searchBox" placeholder="Book search by keyword" />
-          <input type="button" class="searchButton" onClick="alert('searching!');"/>
+          <input type="button" class="searchButton" value="Search" />
           <input type="button" class="greenButton textBookSearchButton" value="Text Book Search">
           <input type="button" class="grayButton browseButton" value="Browse">
         </div>
@@ -50,7 +51,7 @@
   <div class="contentDiv">
     <hr />
     <div class="breadCrumbs">Home > Marketing</div>
-    <div class="backToSearchDiv"><img src="images/search_results_icon.jpg" />Back to Search</div>
+    <div class="backToSearchDiv"><img alt="Back to Search" src="images/search_results_icon.jpg" />Back to Search</div>
     <span class="clear"></span>
     <h2 class="label">Search Results for &#8216;Testing&#8217;</h2>
 
@@ -64,7 +65,7 @@
         <option>Sort Results By</option>
       </select>
 
-      <script language="javascript">
+      <script type="text/javascript">
         jQuery( function( $ ) {
                 $( '#itemsPerPage' ).selectify({
 			arrowSymbol : 'v'
@@ -99,22 +100,20 @@
 
 
     <div class="row result" itemscope itemtype="http://schema.org/Book">
-      <img src="images/placeholder_book.jpg" itemprop="image" class="bookImage" />
+      <img alt="Book Title" src="images/placeholder_book.jpg" itemprop="image" class="bookImage" />
       <div class="bookTitle" itemprop="name">Steve Jobs</div>
       <div class="bookDetails">
         <p itemprop="author">Jon McGregor</p>
-        <p itemprop="">Textbook</p>
+        <p>Textbook</p>
         <p itemprop="bookFormat">Paperback</p>
-        <p itemprop="">
           <div class="starContainer">
             Rate
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_off.jpg" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_off.jpg" alt="Star Off" />
           </div>
-        </p>
       </div>
       <div class="bookDetails">
         <p><strong>Availability:</strong> 6 in stock</p>
@@ -128,22 +127,47 @@
     </div> 
     
     <div class="row result" itemscope itemtype="http://schema.org/Book">
-      <img src="images/placeholder_book.jpg" itemprop="image" class="bookImage" />
+      <img src="images/placeholder_book.jpg" itemprop="image" alt="Placeholder" class="bookImage" />
       <div class="bookTitle" itemprop="name">Steve Jobs</div>
       <div class="bookDetails">
         <p itemprop="author">Jon McGregor</p>
         <p itemprop="">Textbook</p>
         <p itemprop="bookFormat">Paperback</p>
-        <p itemprop="">
           <div class="starContainer">
             Rate
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_off.jpg" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_off.jpg" alt="Star Off" />
           </div>
-        </p>
+      </div>
+      <div class="bookDetails">
+        <p><strong>Availability:</strong> 6 in stock</p>
+        <p class="RRP">RRP <span class="RRPValue">$120.00</span></p>
+        <p class="nonMembers">Non-Members <span class="nonMembersValue">$100</span></p>
+        <p class="members">Members <span class="membersValue">$82</span></p>
+      </div>
+      <div class="bookDetails">
+        <div class="greenButton">Add to Basket</div>
+      </div>
+    </div> 
+
+    <div class="row result" itemscope itemtype="http://schema.org/Book">
+      <img alt="Placeholder" src="images/placeholder_book.jpg" itemprop="image" class="bookImage" />
+      <div class="bookTitle" itemprop="name">Steve Jobs</div>
+      <div class="bookDetails">
+        <p itemprop="author">Jon McGregor</p>
+        <p itemprop="">Textbook</p>
+        <p itemprop="bookFormat">Paperback</p>
+          <div class="starContainer">
+            Rate
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_off.jpg" alt="Star Off" />
+          </div>
       </div>
       <div class="bookDetails">
         <p><strong>Availability:</strong> 6 in stock</p>
@@ -163,45 +187,14 @@
         <p itemprop="author">Jon McGregor</p>
         <p itemprop="">Textbook</p>
         <p itemprop="bookFormat">Paperback</p>
-        <p itemprop="">
           <div class="starContainer">
             Rate
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_off.jpg" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_on.jpg" alt="Star" />
+            <img src="images/star_off.jpg" alt="Star Off" />
           </div>
-        </p>
-      </div>
-      <div class="bookDetails">
-        <p><strong>Availability:</strong> 6 in stock</p>
-        <p class="RRP">RRP <span class="RRPValue">$120.00</span></p>
-        <p class="nonMembers">Non-Members <span class="nonMembersValue">$100</span></p>
-        <p class="members">Members <span class="membersValue">$82</span></p>
-      </div>
-      <div class="bookDetails">
-        <div class="greenButton">Add to Basket</div>
-      </div>
-    </div> 
-
-    <div class="row result" itemscope itemtype="http://schema.org/Book">
-      <img src="images/placeholder_book.jpg" itemprop="image" class="bookImage" />
-      <div class="bookTitle" itemprop="name">Steve Jobs</div>
-      <div class="bookDetails">
-        <p itemprop="author">Jon McGregor</p>
-        <p itemprop="">Textbook</p>
-        <p itemprop="bookFormat">Paperback</p>
-        <p itemprop="">
-          <div class="starContainer">
-            Rate
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_on.jpg" />
-            <img src="images/star_off.jpg" />
-          </div>
-        </p>
       </div>
       <div class="bookDetails">
         <p><strong>Availability:</strong> 6 in stock</p>
@@ -275,20 +268,20 @@
   <span class="clear"></span>
   <h3 class="offersHeader">OFFERS AND PROMOTIONS</h3>
   <div id='offersDiv'>
-    <div id='offersLeftScroll' class="left_scroll"><img src='images/left.jpg' /></div>
+    <div id='offersLeftScroll' class="left_scroll"><img src='images/left.jpg' alt="Left" /></div>
       <div id='offersCarouselInner' class="carousel_inner"> 
         <ul id='offersCarousel_ul' class="carousel_ul">
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li>
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li>
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li>
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li>
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li>
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li>
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li>
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li>
+          <li><a href='#'><img src='images/placeholder_offer.jpg' alt="Placeholder" /></a></li>
+          <li><a href='#'><img src='images/placeholder_offer.jpg' alt="Placeholder" /></a></li>
+          <li><a href='#'><img src='images/placeholder_offer.jpg' alt="Placeholder" /></a></li>
+          <li><a href='#'><img src='images/placeholder_offer.jpg' alt="Placeholder" /></a></li>
+          <li><a href='#'><img src='images/placeholder_offer.jpg' alt="Placeholder" /></a></li>
+          <li><a href='#'><img src='images/placeholder_offer.jpg' alt="Placeholder" /></a></li>
+          <li><a href='#'><img src='images/placeholder_offer.jpg' alt="Placeholder" /></a></li>
+          <li><a href='#'><img src='images/placeholder_offer.jpg' alt="Placeholder" /></a></li>
         </ul>
       </div>
-    <div id='offersRightScroll' class="right_scroll"><img src='images/right.jpg' /></div>
+    <div id='offersRightScroll' class="right_scroll"><img src='images/right.jpg' alt="Right" /></div>
   </div>
 
 
@@ -356,3 +349,5 @@
 
   </div>
   <!-- footer ends here -->
+</body>
+</html>
