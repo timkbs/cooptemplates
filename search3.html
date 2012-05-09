@@ -1,30 +1,25 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-
+  <title>Coop Templates - Search 3</title>
+ 
   <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/global.css" />
   <link rel="stylesheet" type="text/css" href="css/header.css" />
   <link rel="stylesheet" type="text/css" href="css/footer.css" />
   <link rel="stylesheet" type="text/css" href="css/sidebar.css" />
-  <link rel="stylesheet" type="text/css" href="css/home.css" />
-  <link rel="stylesheet" type="text/css" href="css/apparel.css" />
 
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery_selectify.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery_selectify.css" />
 
-  <script language="javascript" src="js/jquery.js"></script>
-  <script language="javascript" src="js/jquery_selectify.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/jquery_selectify_green2.css" />
-
-  <script language="javascript" src="js/jquery_slides.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/jquery_slides.css" />
-
-  <script language="javascript" src="js/relatedbooks.js"></script>
+  <script src="js/relatedbooks.js"></script>
   <link rel="stylesheet" type="text/css" href="css/relatedbooks.css" />
 
-  <script language="javascript" src="js/offers.js"></script>
+  <script src="js/offers.js"></script>
   <link rel="stylesheet" type="text/css" href="css/offers.css" />
 
-  <script language="javascript" src="js/searchresults.js"></script>
+  <script src="js/searchresults.js"></script>
   <link rel="stylesheet" type="text/css" href="css/searchresults.css" />
 
 </head>
@@ -44,10 +39,10 @@
       <span class="clear"></span> 
     </div> 
     <div class="row bottomMargin"> 
-      <div class="logo" /> 
+      <div class="logo"></div> 
         <div class="searchDiv"> 
           <input type="text" class="searchBox" placeholder="Book search by keyword" /> 
-          <input type="button" class="searchButton" onClick="alert('searching!');"/> 
+          <input type="button" class="searchButton" value="Search" /> 
           <input type="button" class="greenButton textBookSearchButton" value="Text Book Search"> 
           <input type="button" class="grayButton browseButton" value="Browse"> 
         </div> 
@@ -88,13 +83,13 @@
           </td>
         </tr>
         <tr>
-          <td colspan="3" align="right" style="padding-top:14px;">
+          <td colspan="3" style="padding-top:14px;">
             <a href="#" style="margin-right:10px; text-decoration:none; color:#1e6cb6; font-size:9px;">Clear Filter and Start Again</a><input type="button" value="Search" class="greenButton" style="float:right; margin-right: 9px;">
           </td> 
         </tr>
       </table>
 
-      <script language="javascript">
+      <script type="text/javascript">
         jQuery( function( $ ) {
                 $( '#step1' ).selectify({
                         arrowSymbol : 'v'
@@ -154,7 +149,7 @@
     <span class="clear"></span> 
   
     <div class="row"> 
-      <img src="images/placeholder_feed.jpg" style="margin-top:50px; margin-bottom:50px; margin-left:2px;"/> 
+      <img alt="Placeholder" src="images/placeholder_feed.jpg" style="margin-top:50px; margin-bottom:50px; margin-left:2px;"/> 
     </div> 
  
   </div> 
@@ -164,21 +159,21 @@
  
   <h3 class="offersHeader">OFFERS AND PROMOTIONS</h3> 
   <div id='offersDiv'> 
-    <div id='offersLeftScroll' class="left_scroll"><img src='images/left.jpg' /></div> 
+    <div id='offersLeftScroll' class="left_scroll"><img alt="Left" src='images/left.jpg' /></div> 
       <div id='offersCarouselInner' class="carousel_inner"> 
         <ul id='offersCarousel_ul' class="carousel_ul"> 
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
+          <li><a href='#'><img alt="Placeholder" src='images/placeholder_offer.jpg' /></a></li> 
+          <li><a href='#'><img alt="Placeholder" src='images/placeholder_offer.jpg' /></a></li> 
+          <li><a href='#'><img alt="Placeholder" src='images/placeholder_offer.jpg' /></a></li> 
+          <li><a href='#'><img alt="Placeholder" src='images/placeholder_offer.jpg' /></a></li> 
  
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
-          <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
+          <li><a href='#'><img alt="Placeholder" src='images/placeholder_offer.jpg' /></a></li> 
+          <li><a href='#'><img alt="Placeholder" src='images/placeholder_offer.jpg' /></a></li> 
+          <li><a href='#'><img alt="Placeholder" src='images/placeholder_offer.jpg' /></a></li> 
+          <li><a href='#'><img alt="Placeholder" src='images/placeholder_offer.jpg' /></a></li> 
         </ul> 
       </div> 
-    <div id='offersRightScroll' class="right_scroll"><img src='images/right.jpg' /></div> 
+    <div id='offersRightScroll' class="right_scroll"><img alt="Right" src='images/right.jpg' /></div> 
   </div> 
  
   <!-- offers end here --> 
@@ -235,8 +230,7 @@
         <div class="copyright">Copyright &copy; 2012 University Co-operative Bookshop Limited</div> 
       </div> 
     </div> 
- 
   </div> 
   <!-- footer ends here --> 
-
+</body>
 </html>
