@@ -636,3 +636,27 @@ textarea{
 	color:#000;
 }
 /*Address Form End*/
+
+.payment-Div{
+	background: url("../images/wishlist-item-backing.png") repeat-x scroll 0 0 transparent;
+    min-height: 370px;
+    width: 945px;
+	margin-top:64px;
+	margin-bottom:20px;
+}
+
+.payment-options{
+	width:312px;
+	height:110px;
+	float:left;
+	padding-left:18px;
+	padding-top:12px;
+	
+}
+
+.payment-heading{
+	font-family: 'Paytone One',sans-serif;
+    font-size: 16px;
+	color:#68C04A;
+	
+}
