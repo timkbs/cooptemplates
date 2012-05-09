@@ -10,28 +10,28 @@
   <link rel="stylesheet" type="text/css" href="css/home.css" />
   <link rel="stylesheet" type="text/css" href="css/jqModal.css" />
 
-  <script language="javascript" src="js/jquery.js"></script>
-  <script language="javascript" src="js/jqModal.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jqModal.js"></script>
 
-  <script language="javascript" src="js/jquery_selectify.js"></script>
+  <script src="js/jquery_selectify.js"></script>
   <link rel="stylesheet" type="text/css" href="css/jquery_selectify.css" />
 
-  <script language="javascript" src="js/jquery_slides.js"></script>
+  <script src="js/jquery_slides.js"></script>
   <link rel="stylesheet" type="text/css" href="css/jquery_slides.css" />
 
-  <script language="javascript" src="js/home_topten.js"></script>
+  <script src="js/home_topten.js"></script>
   <link rel="stylesheet" type="text/css" href="css/home_topten.css" />
 
-  <script language="javascript" src="js/relatedbooks.js"></script>
+  <script src="js/relatedbooks.js"></script>
   <link rel="stylesheet" type="text/css" href="css/relatedbooks.css" />
 
-  <script language="javascript" src="js/offers.js"></script>
+  <script src="js/offers.js"></script>
   <link rel="stylesheet" type="text/css" href="css/offers.css" />
 
-  <script language="javascript" src="js/basketwidget.js"></script>
+  <script src="js/basketwidget.js"></script>
   <link rel="stylesheet" type="text/css" href="css/basketwidget.css" />
 
-  <script language="javascript" src="js/searchresults.js"></script>
+  <script src="js/searchresults.js"></script>
   <link rel="stylesheet" type="text/css" href="css/searchresults.css" />
 
 </head>
@@ -55,7 +55,7 @@
       <div class="logo" /> 
         <div class="searchDiv"> 
           <input type="text" class="searchBox" placeholder="Book search by keyword" /> 
-          <input type="button" class="searchButton" onClick="alert('searching!');"/> 
+          <input type="button" class="searchButton" value="Search" /> 
           <input type="button" class="greenButton textBookSearchButton" value="Text Book Search"> 
           <input type="button" class="grayButton browseButton" value="Browse"> 
         </div> 
@@ -441,15 +441,27 @@
     <span class="clear"></span> 
   
     <div class="row"> 
-      <img src="images/placeholder_feed.jpg" style="margin-top:50px; margin-bottom:50px; margin-left:2px;"/> 
+      <ul id="feedTabs">
+        <li id="facebookTab"><a href="#">Facebook</a></li>
+        <li id="twitterTab"><a href="#">Twitter</a></li>
+        <li id="rssTab"><a href="#">RSS</a></li>
+      </ul>
+      
+      <div class="facebookTabContent" style="margin-top: 20px;">
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fthecoopbookshop&amp;width=160&amp;height=325&amp;colorscheme=light&amp;show_faces=false&amp;border_color=%23ecf0f1&amp;stream=true&amp;header=false&amp;appId=273263256029305" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:160px; height:325px;" allowTransparency="true"></iframe>
+</div>
+
+    <div class="twitterTabContent">
+      
+    </div>
+
     </div> 
 
   </div> 
   <!-- sidebar ends here --> 
 <!-- offers start here --> 
   <span class="clear"></span> 
- 
-  <h3 class="offersHeader" style="position:relative; margin-top:-90px;">OFFERS AND PROMOTIONS</h3> 
+  <h3 class="offersHeader">OFFERS AND PROMOTIONS</h3> 
   <div id='offersDiv'> 
     <div id='offersLeftScroll' class="left_scroll"><img src='images/left.jpg' /></div> 
       <div id='offersCarouselInner' class="carousel_inner"> 
@@ -458,7 +470,6 @@
           <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
           <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
           <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
- 
           <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
           <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 
           <li><a href='#'><img src='images/placeholder_offer.jpg' /></a></li> 

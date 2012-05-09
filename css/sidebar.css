@@ -44,6 +44,42 @@
   padding-right: 12px;
 }
 
+#feedTabs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#feedTabs #facebookTab {
+  background: url('../images/facebookTab.png') no-repeat;
+  text-indent: -9999px;
+  display: block;
+  float: left;
+  width: 50px;
+  height: 41px;
+  margin-right: 1px;
+}
+
+#feedTabs #twitterTab {
+  background: url('../images/twitterTabOn.png') no-repeat;
+  text-indent: -9999px;
+  display: block;
+  float: left;
+  width: 50px;
+  height: 41px;
+    margin-right: 1px;
+
+}
+
+#feedTabs #rssTab {
+  background: url('../images/rssTab.png') no-repeat;
+  text-indent: -9999px;
+  display: block;
+  float: left;
+  width: 50px;
+  height: 41px;
+}
+
 .profileDiv .editProfile, .profileDiv-wishlist .editProfile {
   color: #1a69ac; 
   font-family: Arial;
