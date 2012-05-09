@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-
 	<title>Co-Op Shopping-basket</title>
   <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/global.css" />
@@ -32,7 +31,7 @@
       <div class="logo">
         <div class="searchDiv">
           <input type="text" class="searchBox" placeholder="Book search by keyword" />
-           <input type="button" class="searchButton" value="Search" />
+          <input type="button" class="searchButton" value="Search" />
           <input type="button" class="greenButton textBookSearchButton" value="Text Book Search">
           <input type="button" class="grayButton browseButton" value="Browse">
         </div>
@@ -44,7 +43,7 @@
 
   <div class="contentDiv">
     <div class="breadCrumbs">Home &gt; Level 2 &gt; Shopping Basket</div>
-    <h2 class="label">Shopping Basket</h2>
+    <h2 class="label">Shipping Details</h2>
   </div>
 
 
@@ -55,94 +54,96 @@
         <p class="greetings">Hello Sam</p>
         <a href="" class="editProfile">Edit/Update Your Profile</a>
       </div>
+      
     </div>
-		<div class="order-title">
-        	<h2>Your Order Summary</h2>
-        </div>
+	
     <span class="clear"></span>
 
   </div>
 
   <span class="clear"></span>
 
-  <div class="contentDiv-main-wishlist">
-    <div class="wishlist-list">
-      <div class="header">
-        <div class="col a">Description</div>
-        <div class="col b">Members Price</div>
-        <div class="col c">Price</div>
-        <div class="col d">Quantity</div>
-        <div class="col e">Total</div>
-      </div>
-      <div class="list">
-        <div class="item" itemscope itemtype="http://schema.org/Book">
-          <div class="thumb col"><img src="images/wishlist-thumb-1.jpg" alt="The Help"/></div>
-          <div class="title col">
-            <a href="#"><span itemprop="name">The Help</span></a>
-            <span class="isbn">ISBNL <span itemprop="isbn">123456789101112131</span></span>
-            <div class="inventory"><strong>Availability:</strong>&nbsp;Currently in Stock</div>
-          </div>
-          <div class="mprice col">$25.00</div>
-          <div class="price col">$35.00</div>
-          <div class="quantity col">
-            <img src="images/wishlist-fakecb.png" alt=""/>
-            <a href="#">Remove</a>
-          </div>
-          <div class="total col">$35.00</div>
-          <div class="cta col">
-            <div class="savings">Members Save: $10.00</div>
-            <div>PO# 123456</div>
-            <div class="basket greenButton">Add to Basket</div>
-          </div>
+  
+  
+  <section class="ship-addressDiv">
+  		<div class="shipping-address">
+        	<span class="ship-DetailHeading">Ship to this Address</span>
+            	<div class="address-details">
+            		<p><span class="name-bold">Mary Henderson</span><br />Level 2<br />141 Flinders Lane<br />Melbourne, 
+                    Victoria 3000<br />Australia<br /><br /><a href="#">Remove</a> <a href="#">Edit</a></p>
+           	  </div>
+              	<div class="address-button">Use this address</div>
         </div>
-        <span class="clear"></span>
-        <div class="item" itemscope itemtype="http://schema.org/Book">
-          <div class="thumb col"><img src="images/wishlist-thumb-2.jpg" alt="Michael Vey"/></div>
-          <div class="title col">
-            <a href="#"><span itemprop="name">Michael Vey</span></a>
-            <span class="isbn">ISBNL <span itemprop="isbn">123456789101112131</span></span>
-            <div class="inventory"><strong>Availability:</strong>&nbsp;Currently in Stock</div>
-          </div>
-          <div class="mprice col">$25.00</div>
-          <div class="price col">$35.00</div>
-          <div class="quantity col">
-            <img src="images/wishlist-fakecb.png" alt=""/>
-            <a href="#">Remove</a>
-          </div>
-          <div class="total col">$35.00</div>
-          <div class="cta col">
-            <div class="savings">Members Save: $10.00</div>
-            <div>Free Shipping</div>
-            <div class="basket greenButton">Add to Basket</div>
-          </div>
+        <div class="shipping-form">
+        	<span class="ship-AddressHeading">Ship to a new address</span>
+            <div class="contact-formcontainer">
+                                        	
+                     	 <form class="contact-form" action="#" method="post" id="contact-form">
+                         					<div id="status"></div>
+                                <div>
+                                    
+                                    <input class="form-fields" type="text" id="firstname" name="firstname" tabindex="1"
+                                    placeholder="First Name" />
+                                </div>
+                                <div>
+                                    
+                                    <input class="form-fields" type="text" id="lastname" name="lastname" tabindex="1"
+                                    placeholder="Last Name" />
+                                </div>
+                                <div>
+                                    
+                                    <input class="form-fields" type="text" id="address1" name="address1" tabindex="1"
+                                    placeholder="Address Line 1" />
+                                </div>
+                                 <div>
+                                    
+                                    <input class="form-fields" type="text" id="address2" name="address2" tabindex="1"
+                                    placeholder="Address Line 2" />
+                                </div>
+                             	<div>
+                                    
+                                    <input class="form-fields" type="text" id="suburb" name="suburb" tabindex="1"
+                                    placeholder="Suburb" />
+                                </div>
+                          		<div>
+                                    
+                                    <input class="form-fields" type="text" id="state" name="state" tabindex="1"
+                                    placeholder="State" />
+                                </div>
+                                <div>
+                                    
+                                    <input class="form-fields" type="text" id="postcode" name="postcode" tabindex="1"
+                                    placeholder="Postcode" />
+                                </div>
+                                <div>
+                                    
+                                    <input class="form-fields" type="text" id="country" name="country" tabindex="1"
+                                    placeholder="Country" />
+                                </div>
+                                <div>
+                                    
+                                    <input class="form-fields" type="text" id="contact-number" name="contact-number" tabindex="1"
+                                    placeholder="Contact Phone Number" />
+                                </div>
+                                <div>
+                                    <label>
+                                    <input class="form-fields" type="submit" value="Use this address" tabindex="5" />
+                                    </label>
+                                </div>
+ 		
+ 						</form>
+                                        </div><!-- .contact-formcontainer end -->
         </div>
-        <span class="clear"></span>
-      </div>
-    </div>
-  </div>
-  <div class="wishlist-total">
-    <div class="items"><strong>Your Total</strong>&nbsp;3 Items</div>
-    <div class="price">$105.00</div>
-  </div>
-  <span class="clear"></span>
-  <div class="wishlist-total">
-    <div class="items"><strong>Members Save</strong></div>
-    <div class="price">$20.00</div>
-    <div class="blueButton cta">Become a Member</div>
-  </div>
-  <span class="clear"></span>
-  <div class="wishlist-bottombtns">
-    <div class="greenButton continue">Continue Shopping</div>
-    <div class="greenButton checkout">Checkout</div>
-  </div>
-  <div class="credit-card">
+        
+        
+  </section>
+  <div class="credit-cardthree">
   	<img src="images/payment_options.png" alt="Payment Options"> 
   </div>
-  <span class="clear"></span>
-
-  <h3 class="offersHeader">OFFERS AND PROMOTIONS</h3>
+  	  	
+ <h3 class="offersHeader">OFFERS AND PROMOTIONS</h3>
   <div id='offersDiv'>
-    <div id='offersLeftScroll' class="left_scroll"><img src='images/left.jpg' alt="#" /></div>
+    <div id='offersLeftScroll' class="left_scroll"><img src='images/left.jpg' alt="#"/></div>
       <div id='offersCarouselInner' class="carousel_inner"> 
         <ul id='offersCarousel_ul' class="carousel_ul">
           <li><a href='#'><img src='images/placeholder_offer.jpg' alt="#"/></a></li>
@@ -155,10 +156,10 @@
           <li><a href='#'><img src='images/placeholder_offer.jpg' alt="#"/></a></li>
         </ul>
       </div>
-    <div id='offersRightScroll' class="right_scroll"><img src='images/right.jpg' alt="#" /></div>
+    <div id='offersRightScroll' class="right_scroll"><img src='images/right.jpg' alt="#"/></div>
   </div>
   <span class="clear"></span>
-
+	
 
   <div class="row footerDiv">
     <div class="footerLogo"></div>

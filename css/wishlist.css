@@ -429,3 +429,210 @@ h2.label {
 	margin-right:-214px;
 	
 }
+
+.credit-cardthree img{
+	width:262px;
+	height:55px;
+	float:right;
+	margin-top:10px;
+	margin-right:150px;
+	margin-bottom:40px;
+	
+	
+}
+
+.ship-addressDiv{
+	background: url("../images/wishlist-item-backing.png") repeat-x scroll 0 0 transparent;
+    min-height: 370px;
+    width: 945px;
+	margin-top:64px;
+	margin-bottom:20px;
+}
+
+.shipping-address{
+	width:340px;
+	height:220px;
+	float:left;
+	padding-left:18px;
+	padding-top:12px;
+	
+}
+
+.shipping-form{
+	width:466px;
+	height:366px;
+	float:right;
+	padding-top:12px;
+
+	
+}
+
+.ship-DetailHeading{
+	font-family: 'Paytone One',sans-serif;
+    font-size: 16px;
+	color:#68C04A;
+	
+}
+
+.ship-AddressHeading{
+	font-family: 'Paytone One',sans-serif;
+    font-size: 16px;
+	color:#68C04A;
+	margin-right:40px;
+	
+}
+
+.address-details p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.address-details a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#68C04A;
+	margin-top:20px;
+}
+
+.address-button{
+	width:118px;
+	height:16px;
+	color:#FFF;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #67C247), color-stop(1, #2FA206) );
+	background:-moz-linear-gradient(center top , #67C247, #2FA206) repeat scroll 0 0 #67C247;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: #67C247;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-family: 'Paytone One',sans-serif;
+    font-size: 12px;
+    margin-top: 0;
+    outline: medium none;
+    padding: 4px 0px 10px 3px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    vertical-align: baseline;
+}	
+
+.name-bold{
+	font-weight:bold;
+}
+
+/*Address Form*/
+
+#suburb{
+	width:100px;
+	float:left;
+
+}
+
+#state{
+	width:100px;
+	float:left;
+	margin-left:26px;
+
+}
+
+#postcode{
+	width:100px;
+	float:right;
+
+}
+
+
+.contact-formcontainer{
+	width:260px;
+	height:370px;
+	float:left;
+	display:block;
+		
+}
+
+form{
+
+	width:390px;
+	float:left;
+	display:block;
+	margin-top:12px;
+}
+
+form div{
+	width:390px;
+	
+}
+
+form label{
+	width:390px;	
+	display:block;
+	float:right;
+	margin-bottom:5px;
+	color:#57E7FF;
+	font-size:13px;
+}
+
+
+.form-fields, textarea{
+	width:380px;
+	line-height:17px;
+	height:20px;
+	font-size:12px;
+	font-family:Helvetica, Arial, sans-serif;
+	padding:5px;
+	border:1px solid #999999;
+	outline:none;
+	background-color:#FFF;
+	color:#000;
+	margin-bottom:8px;
+	border-radius:5px;
+}
+
+
+
+
+
+textarea{
+	width:230px;
+	padding:5px;
+	height:130px;
+	resize:vertical;
+}
+
+
+
+.form-fields[type=submit]{
+	width:118px;
+	height:30px;
+	box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #67C247), color-stop(1, #2FA206) );
+	background:-moz-linear-gradient(center top , #67C247, #2FA206) repeat scroll 0 0 #67C247;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	color:#FFF;
+	font-family: 'Paytone One',sans-serif;
+	font-size:12px;
+	padding:1px 4px 4px 4px;
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+	text-decoration:none;
+	float:right;
+	cursor:pointer;
+	border:0px none;
+	/*text-indent:-9999px; make text disapear*/
+}
+
+
+.form-fields:focus{/*when user clicks on tabs*/
+	height:20px;
+	font-size:13px;
+	font-weight:normal;
+	color:#000;
+}
+/*Address Form End*/

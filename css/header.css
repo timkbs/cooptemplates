@@ -43,7 +43,7 @@
       cursor: pointer;
       border: none;
       background: none;
-      text-indent: -9999px;
+	  text-indent:-9999px;
     }
 
     .textBookSearchButton {
