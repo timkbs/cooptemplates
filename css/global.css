@@ -14,6 +14,13 @@
       color: #1e6cb6;
       font-weight: normal;
     }
+	
+	 h2 {
+      font-family: 'Paytone One', sans-serif;
+      font-size: 16px;
+      color: #FFF;
+      font-weight: normal;
+    }
 
     .clear {
       position: relative;

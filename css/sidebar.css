@@ -13,35 +13,31 @@
   padding-right: 12px;
 }
 
-.profileDiv p.signInText {
-  font-size: 11px;
-  margin-top: 5px;
-  font-weight: normal;
-}
-
-.profileDiv .signInButton {
-  margin-bottom: 10px;
-}
-.profileDiv p.signInLinks {
-  font-size: 11px;
-  margin-top: 5px;
-  font-weight: normal;
-}
-
-.profileDiv p.signInLinks a {
-  color: #1969ad;
-}
-
-
 .sideBarDiv .profileDiv-wishlist {
   float: left;
   width: 136px;
-  height: 47px;
+  height: 32px;
   background:#e9e8e4;
   font-family: Arial;
   font-size: 12px; 
   font-weight: bold;
   color: #000;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.sideBarDiv .profileDiv-credit{
+  float: left;
+  width: 136px;
+  height: 94px;
+  background:#e9e8e4;
+  font-family: Arial;
+  font-size: 12px; 
+  font-weight: bold;
+  color: #000;
+  margin-top:4px;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 12px;

@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-
 	<title>Co-Op Shopping-basket</title>
   <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/global.css" />
@@ -32,7 +31,7 @@
       <div class="logo">
         <div class="searchDiv">
           <input type="text" class="searchBox" placeholder="Book search by keyword" />
-           <input type="button" class="searchButton" value="Search" />
+          <input type="button" class="searchButton" value="Search" />
           <input type="button" class="greenButton textBookSearchButton" value="Text Book Search">
           <input type="button" class="grayButton browseButton" value="Browse">
         </div>
@@ -54,6 +53,11 @@
       <div class="profileDiv-wishlist">
         <p class="greetings">Hello Sam</p>
         <a href="" class="editProfile">Edit/Update Your Profile</a>
+      </div>
+      <div class="profileDiv-credit">
+        <p class="greetings">You currently have</p>
+        	<div class="credit-balance"><p>$125.00 credit</p></div>
+        <p class="greetings">Please select to apply your credit.</p>
       </div>
     </div>
 		<div class="order-title">
@@ -92,7 +96,6 @@
           <div class="cta col">
             <div class="savings">Members Save: $10.00</div>
             <div>PO# 123456</div>
-            <div class="basket greenButton">Add to Basket</div>
           </div>
         </div>
         <span class="clear"></span>
@@ -113,36 +116,68 @@
           <div class="cta col">
             <div class="savings">Members Save: $10.00</div>
             <div>Free Shipping</div>
-            <div class="basket greenButton">Add to Basket</div>
+            
           </div>
         </div>
         <span class="clear"></span>
       </div>
     </div>
   </div>
-  <div class="wishlist-total">
-    <div class="items"><strong>Your Total</strong>&nbsp;3 Items</div>
-    <div class="price">$105.00</div>
-  </div>
+  
   <span class="clear"></span>
   <div class="wishlist-total">
     <div class="items"><strong>Members Save</strong></div>
-    <div class="price">$20.00</div>
+    <div class="price">$30.00</div>
     <div class="blueButton cta">Become a Member</div>
   </div>
-  <span class="clear"></span>
-  <div class="wishlist-bottombtns">
-    <div class="greenButton continue">Continue Shopping</div>
-    <div class="greenButton checkout">Checkout</div>
-  </div>
-  <div class="credit-card">
+    <section class="voucher-coupon">
+  		<span class="enter-voucher">Enter Voucher/Coupon</span>
+        <span class="enter-code">Coupon Code</span>
+        <span class="update-total">Update Total</span>
+  </section>
+  <section class="order-total">
+  		<div class="total-list">
+        	<div class="total-items">
+            	<ul>
+                	<li>Total Items</li>
+                    <li>Total Order <span class="gst">(inc GST)</span></li>
+                    <li>Less Coupon Discount</li>
+                    <li class="shoppinglist-spacing">Shipping and Handling</li>
+                    <li>Total for this Order <span class="gst">(inc GST)</span></li>
+                    <li>Less Voucher Credit</li>
+                </ul>
+            </div>
+            <div class="shopping-cost">
+            	<ul>
+                	<li>2 items</li>
+                    <li>$70.00</li>
+                    <li>$10.00</li>
+                    <li class="shoppinglist-spacing">$0.00</li>
+                    <li>$60.00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="final-total">
+			<div class="total-text">Final Total for this Order <span class="gst">(inc GST)</span></div> 
+            <div class="total-cost">$60.00</div>           
+        </div>
+        <div class="checkout-container">
+        	<div class="checkout-text">
+            	<p>You have saved a total of $20.00 for this order<br />As a member you could have saved a total of $20.00 for this order</p>
+            </div>
+            <div class="checkout-button">Checkout</div>
+            
+             <div class="credit-cardtwo">
   	<img src="images/payment_options.png" alt="Payment Options"> 
   </div>
+        </div>
+  </section>
+  
   <span class="clear"></span>
 
   <h3 class="offersHeader">OFFERS AND PROMOTIONS</h3>
   <div id='offersDiv'>
-    <div id='offersLeftScroll' class="left_scroll"><img src='images/left.jpg' alt="#" /></div>
+    <div id='offersLeftScroll' class="left_scroll"><img src='images/left.jpg' alt="#"/></div>
       <div id='offersCarouselInner' class="carousel_inner"> 
         <ul id='offersCarousel_ul' class="carousel_ul">
           <li><a href='#'><img src='images/placeholder_offer.jpg' alt="#"/></a></li>
@@ -155,8 +190,10 @@
           <li><a href='#'><img src='images/placeholder_offer.jpg' alt="#"/></a></li>
         </ul>
       </div>
-    <div id='offersRightScroll' class="right_scroll"><img src='images/right.jpg' alt="#" /></div>
+    <div id='offersRightScroll' class="right_scroll"><img src='images/right.jpg' alt="#"/></div>
   </div>
+  <span class="clear"></span>
+
   <span class="clear"></span>
 
 
