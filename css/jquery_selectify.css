@@ -1,5 +1,5 @@
 
-ul.uploadifyDropdown{padding:0;float:left; margin-top:7px; margin-right: 10px; background:none; width:200px !important; z-index:999; overflow-x:hidden; color:#000; font-family:Arial; font-size:11px;}
+ul.uploadifyDropdown{padding:0;float:left; position: relative; margin-top:7px; margin-right: 10px; background:none; width:200px !important; z-index:999; overflow-x:hidden; color:#000; font-family:Arial; font-size:11px;}
 ul.uploadifyDropdown li[name=selected]{ border:1px solid #6b787e;cursor:default;padding:0px;-moz-border-radius:2px;border-radius:5px;webkit-border-radius:5px;background:#fff;  height:25px;}
 ul.uploadifyDropdown li[name=selected] span.selectText{ padding-left:7px; padding-right:4px; position:relative; top:6px !important;}
 ul.uploadifyDropdown li[name=selected] a.changeValue{ text-decoration:none;color:#000;float:right;padding:0px;background:#6b787e; text-align:center; font-weight:bold; color:#fff; width:25px; padding-top:6px; height:19px;}
